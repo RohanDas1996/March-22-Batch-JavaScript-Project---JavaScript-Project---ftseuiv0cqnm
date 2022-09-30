@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <div class="istdiv">
+    <div class="insidediv">
+      <h4 class="h">Tip Calculator</h4>
+    </div>
+    <div class="sec_insidediv">
+      <label>Bill Amount</label>
+      <br>
+      <input id="blamnt" type="number" placeholder="Enter Bill Amount">
+      <br>
+      <label>Tip Percentage</label>
+      <br>
+      <input id="tppercent" type="number" placeholder="Enter Tip Percentage">
+      <br>
+      <label>Number of Persons</label>
+      <br>
+      <input id="prsn" type="number" placeholder="No. of persons">
+      <br>
+      <label>Tip Amount / Person</label>
+      <br>
+      <input id="tpamnt" type="number" disabled>
+      <br>
+      <label>Total Payable Amount</label>
+      <br>
+      <input id="tpayamnt" type="number" disabled>
+      <br>
+      <button id="btn1" onclick="calcy()"><b>Calculate</b></button>
+      <button id="btn2" onclick="clr()"><b>Clear</b></button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

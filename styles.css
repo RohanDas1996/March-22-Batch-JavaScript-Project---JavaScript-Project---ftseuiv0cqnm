@@ -1,1 +1,76 @@
+.istdiv {
+    font-size: 225%;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    width: 25vw;
+    position: relative;
+    left: 40%;
+    border-radius: 5px;
 
+  }
+  body {
+    background-image: url(scifi_image.webp);
+    background-size: cover;
+  }
+
+  .sec_insidediv {
+    margin: auto;
+    height: 80vh;
+    padding-top: 40px;
+  }
+
+  .h {
+    margin: auto;
+    height: 60px;
+  }
+
+  .insidediv {
+    background-color: #A29BFE;
+    color: black;
+  }
+
+  #blamnt {
+    height: 30px;
+    font-weight: 800;
+  }
+
+  #tppercent {
+    height: 30px;
+    font-weight: 800;
+  }
+
+  #prsn {
+    height: 30px;
+    font-weight: 800;
+  }
+
+  #tpamnt {
+    height: 30px;
+    font-weight: 800;
+    background-color: white;
+    color: black
+  }
+
+  #tpayamnt {
+    height: 30px;
+    font-weight: 800;
+    background-color: white;
+    color: black;
+  }
+
+  #btn1 {
+    height: 30px;
+    width: 100px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+
+  #btn2 {
+    height: 30px;
+    width: 100px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
