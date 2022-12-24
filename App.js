@@ -9,7 +9,7 @@ function calcy() {
         if (p > 0) {
           if (b < 101) {
             let c = b / 100;
-            let result = a * c;
+            let result = (a*c)/2;
             let payable = (result * p) + a;
 
             document.getElementById("tpamnt").value = result;
